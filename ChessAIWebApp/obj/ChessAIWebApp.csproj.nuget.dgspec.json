@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danny\\source\\repos\\ChessAIWebApp\\ChessAIWebApp\\ChessAIWebApp.csproj": {}
+    "C:\\Users\\danny\\source\\repos\\AllChessAIWebApps\\ChessAIWebApp\\ChessAIWebApp\\ChessAIWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danny\\source\\repos\\ChessAIWebApp\\ChessAIWebApp\\ChessAIWebApp.csproj": {
+    "C:\\Users\\danny\\source\\repos\\AllChessAIWebApps\\ChessAIWebApp\\ChessAIWebApp\\ChessAIWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danny\\source\\repos\\ChessAIWebApp\\ChessAIWebApp\\ChessAIWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\danny\\source\\repos\\AllChessAIWebApps\\ChessAIWebApp\\ChessAIWebApp\\ChessAIWebApp.csproj",
         "projectName": "ChessAIWebApp",
-        "projectPath": "C:\\Users\\danny\\source\\repos\\ChessAIWebApp\\ChessAIWebApp\\ChessAIWebApp.csproj",
+        "projectPath": "C:\\Users\\danny\\source\\repos\\AllChessAIWebApps\\ChessAIWebApp\\ChessAIWebApp\\ChessAIWebApp.csproj",
         "packagesPath": "C:\\Users\\danny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danny\\source\\repos\\ChessAIWebApp\\ChessAIWebApp\\obj\\",
+        "outputPath": "C:\\Users\\danny\\source\\repos\\AllChessAIWebApps\\ChessAIWebApp\\ChessAIWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,32 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Sinks.ColoredConsole": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Logentries": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Serilog.Sinks.RollingFile.Extension": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
